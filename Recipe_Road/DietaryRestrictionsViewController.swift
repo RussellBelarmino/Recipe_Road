@@ -15,6 +15,14 @@ class DietaryRestrictionsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // to switch between the checked and unchecked images
+    @IBAction func checkbox(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+        } else {
+            sender.isSelected = true
+        }
+    }
 
     /*
     // MARK: - Navigation
