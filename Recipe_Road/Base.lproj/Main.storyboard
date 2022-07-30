@@ -16,13 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoy-5z-I1v">
-                                <rect key="frame" x="150" y="653" width="135" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foK-5l-QPT">
+                                <rect key="frame" x="162" y="630" width="67" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
-                                    <segue destination="86r-L5-B7H" kind="presentation" id="Nh4-9N-Beu"/>
+                                    <segue destination="mkq-KK-y6M" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="coverVertical" id="aNV-VZ-BQI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,22 +32,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="80.33175355450237"/>
+            <point key="canvasLocation" x="20" y="81"/>
         </scene>
-        <!--test1-->
-        <scene sceneID="c8O-01-fhQ">
+        <!--Inputting Ingredients View Controller-->
+        <scene sceneID="QX6-mo-jBd">
             <objects>
-                <viewController title="test1" id="86r-L5-B7H" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mTD-hs-3Tq">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                <viewController id="mkq-KK-y6M" customClass="InputtingIngredientsViewController" customModule="Recipe_Road" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dy6-EE-hcq">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="EED-lz-5Gc"/>
+                        <viewLayoutGuide key="safeArea" id="oUg-uQ-YK3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="72S-yt-kT8"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zEM-sg-hZh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gHi-kr-20m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="852" y="80"/>
+            <point key="canvasLocation" x="769" y="79"/>
         </scene>
     </scenes>
     <resources>
