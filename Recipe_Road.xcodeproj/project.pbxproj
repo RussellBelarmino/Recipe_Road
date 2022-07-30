@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8F9B878F289481AD009E786C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B878E289481AD009E786C /* AppDelegate.swift */; };
 		8F9B8791289481AD009E786C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B8790289481AD009E786C /* SceneDelegate.swift */; };
-		8F9B8793289481AD009E786C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B8792289481AD009E786C /* ViewController.swift */; };
+		8F9B8793289481AD009E786C /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B8792289481AD009E786C /* LandingPageViewController.swift */; };
 		8F9B8796289481AD009E786C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9B8794289481AD009E786C /* Main.storyboard */; };
 		8F9B8798289481AF009E786C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9B8797289481AF009E786C /* Assets.xcassets */; };
 		8F9B879B289481AF009E786C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9B8799289481AF009E786C /* LaunchScreen.storyboard */; };
+		8F9B87A32894B4E0009E786C /* InputtingIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B87A22894B4E0009E786C /* InputtingIngredientsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F9B878B289481AD009E786C /* Recipe_Road.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe_Road.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9B878E289481AD009E786C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F9B8790289481AD009E786C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F9B8792289481AD009E786C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F9B8792289481AD009E786C /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		8F9B8795289481AD009E786C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F9B8797289481AF009E786C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9B879A289481AF009E786C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9B879C289481AF009E786C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9B87A22894B4E0009E786C /* InputtingIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputtingIngredientsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				8F9B878E289481AD009E786C /* AppDelegate.swift */,
 				8F9B8790289481AD009E786C /* SceneDelegate.swift */,
-				8F9B8792289481AD009E786C /* ViewController.swift */,
+				8F9B8792289481AD009E786C /* LandingPageViewController.swift */,
+				8F9B87A22894B4E0009E786C /* InputtingIngredientsViewController.swift */,
 				8F9B8794289481AD009E786C /* Main.storyboard */,
 				8F9B8797289481AF009E786C /* Assets.xcassets */,
 				8F9B8799289481AF009E786C /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9B8793289481AD009E786C /* ViewController.swift in Sources */,
+				8F9B87A32894B4E0009E786C /* InputtingIngredientsViewController.swift in Sources */,
+				8F9B8793289481AD009E786C /* LandingPageViewController.swift in Sources */,
 				8F9B878F289481AD009E786C /* AppDelegate.swift in Sources */,
 				8F9B8791289481AD009E786C /* SceneDelegate.swift in Sources */,
 			);
