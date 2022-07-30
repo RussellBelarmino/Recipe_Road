@@ -10,6 +10,7 @@ import UIKit
 class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     @IBOutlet weak var ingredientPicker1: UIPickerView!
+    @IBOutlet weak var ingredientPicker2: UIPickerView!
     
     var ingredientPickerData: [String] = [String]()
     
@@ -20,6 +21,8 @@ class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate
         // Connect the data
         self.ingredientPicker1.delegate = self
         self.ingredientPicker1.dataSource = self
+        self.ingredientPicker2.delegate = self
+        self.ingredientPicker2.dataSource = self
         
         // The data for the array
         ingredientPickerData = [

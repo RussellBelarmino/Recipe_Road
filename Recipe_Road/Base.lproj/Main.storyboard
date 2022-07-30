@@ -71,6 +71,10 @@
                                 <rect key="frame" x="91" y="249" width="235" height="91"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HNF-yf-Ma1">
+                                <rect key="frame" x="91" y="357" width="235" height="91"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oUg-uQ-YK3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -78,6 +82,7 @@
                     <navigationItem key="navigationItem" id="72S-yt-kT8"/>
                     <connections>
                         <outlet property="ingredientPicker1" destination="U86-mf-KAP" id="LV7-Nh-tLM"/>
+                        <outlet property="ingredientPicker2" destination="HNF-yf-Ma1" id="ZCp-eZ-U5A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHi-kr-20m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
