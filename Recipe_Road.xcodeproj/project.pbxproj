@@ -10,6 +10,7 @@
 		8F33FC692897211300F41A95 /* MoreFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33FC682897211300F41A95 /* MoreFiltersViewController.swift */; };
 		8F33FC6B289746F500F41A95 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33FC6A289746F500F41A95 /* RecipeListViewController.swift */; };
 		8F33FC6D2897A83F00F41A95 /* HaloHaloInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33FC6C2897A83F00F41A95 /* HaloHaloInstructionsViewController.swift */; };
+		8F33FC6F2897CF8500F41A95 /* HaloHaloStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33FC6E2897CF8500F41A95 /* HaloHaloStepsViewController.swift */; };
 		8F95FD672894EADE007398B5 /* DietaryRestrictionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95FD662894EADE007398B5 /* DietaryRestrictionsViewController.swift */; };
 		8F9B878F289481AD009E786C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B878E289481AD009E786C /* AppDelegate.swift */; };
 		8F9B8791289481AD009E786C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B8790289481AD009E786C /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 		8F33FC682897211300F41A95 /* MoreFiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreFiltersViewController.swift; sourceTree = "<group>"; };
 		8F33FC6A289746F500F41A95 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
 		8F33FC6C2897A83F00F41A95 /* HaloHaloInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloHaloInstructionsViewController.swift; sourceTree = "<group>"; };
+		8F33FC6E2897CF8500F41A95 /* HaloHaloStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloHaloStepsViewController.swift; sourceTree = "<group>"; };
 		8F95FD662894EADE007398B5 /* DietaryRestrictionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaryRestrictionsViewController.swift; sourceTree = "<group>"; };
 		8F9B878B289481AD009E786C /* Recipe_Road.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe_Road.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9B878E289481AD009E786C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				8F33FC682897211300F41A95 /* MoreFiltersViewController.swift */,
 				8F33FC6A289746F500F41A95 /* RecipeListViewController.swift */,
 				8F33FC6C2897A83F00F41A95 /* HaloHaloInstructionsViewController.swift */,
+				8F33FC6E2897CF8500F41A95 /* HaloHaloStepsViewController.swift */,
 				8F9B8794289481AD009E786C /* Main.storyboard */,
 				8F9B8797289481AF009E786C /* Assets.xcassets */,
 				8F9B8799289481AF009E786C /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 				8F95FD672894EADE007398B5 /* DietaryRestrictionsViewController.swift in Sources */,
 				8F33FC692897211300F41A95 /* MoreFiltersViewController.swift in Sources */,
 				8F9B878F289481AD009E786C /* AppDelegate.swift in Sources */,
+				8F33FC6F2897CF8500F41A95 /* HaloHaloStepsViewController.swift in Sources */,
 				8F33FC6B289746F500F41A95 /* RecipeListViewController.swift in Sources */,
 				8F9B8791289481AD009E786C /* SceneDelegate.swift in Sources */,
 				8F33FC6D2897A83F00F41A95 /* HaloHaloInstructionsViewController.swift in Sources */,
