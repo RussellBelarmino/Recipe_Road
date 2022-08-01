@@ -1040,14 +1040,14 @@
             <objects>
                 <viewController id="WG6-rN-zoV" customClass="HaloHaloInstructionsViewController" customModule="Recipe_Road" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0fH-0I-Aoo">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="1700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgL-h7-Zlz">
-                                <rect key="frame" x="0.0" y="44" width="390" height="1656"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="1606"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldm-6h-dXb" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1700"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1650"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="halo halo cover picture" translatesAutoresizingMaskIntoConstraints="NO" id="OeY-UZ-qhr">
                                                 <rect key="frame" x="23" y="60" width="185" height="180"/>
@@ -1285,7 +1285,7 @@
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.61568627450000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1700" id="uWV-WS-ret"/>
+                                            <constraint firstAttribute="height" constant="1650" id="uWV-WS-ret"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1307,7 +1307,7 @@
                             <constraint firstItem="Ldm-6h-dXb" firstAttribute="width" secondItem="0fH-0I-Aoo" secondAttribute="width" id="tA6-N8-e01"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="390" height="1700"/>
+                    <size key="freeformSize" width="390" height="1650"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wy-VI-gf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1327,10 +1327,22 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dO-wF-bVs" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax9-7R-mRT">
-                                                <rect key="frame" x="35" y="51" width="12" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax9-7R-mRT">
+                                                <rect key="frame" x="36" y="54" width="318" height="254"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1. For the saba bananas in syrup: In a 2-quart saucepan, combine water and sugar. Bring to a boil over high heat. Add bananas and lower heat to maintain a steady simmer. Cook until syrup has slightly reduced, about 20 minutes. Remove from heat, transfer to heatproof medium bowl (you should have about 2 1/2 cups; 650g), and let cool to room temperature, about 45 minutes. Cover and refrigerate until cold, about 2 hours. Clean saucepan.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="saba-bananas-in-syrup" translatesAutoresizingMaskIntoConstraints="NO" id="cXo-tJ-Fih">
+                                                <rect key="frame" x="98" y="334" width="195" height="149"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Halo-halo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sJ-hJ-Kdg">
+                                                <rect key="frame" x="163" y="35" width="86" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1377,6 +1389,7 @@
         <image name="fork.knife" catalog="system" width="92" height="128"/>
         <image name="halo halo cover picture" width="580" height="580"/>
         <image name="horizontal line" width="1600" height="1600"/>
+        <image name="saba-bananas-in-syrup" width="700" height="525"/>
         <image name="square" catalog="system" width="128" height="114"/>
         <image name="square.fill" catalog="system" width="128" height="114"/>
         <image name="star" catalog="system" width="128" height="116"/>
