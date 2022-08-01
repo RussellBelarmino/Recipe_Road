@@ -1245,7 +1245,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikF-ix-wyE">
                                                 <rect key="frame" x="23" y="1071" width="345" height="162"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">3. For the tapioca pearls in syrup: In a 4-quart saucepan, bring water to a boil over high heat. Add tapioca pearls and cook, stirring occasionally and scraping the bottom, until tapioca pearls have started to become translucent, about 30 minutes. Add sugar and continue to cook, stirring occasionally, until tapioca pearls are translucent and chewy, about 20 minutes. Strain mixture through a fine-mesh strainer set over a large heatproof bowl; return strained sugar-water mixture to saucepan. Rinse tapioca pearls under cold running water; set aside.</mutableString>
+                                                <string key="text">3. For the tapioca pearls in syrup: In a 4-quart saucepan, bring water to a boil over high heat. Add tapioca pearls and cook, stirring occasionally and scraping the bottom, until tapioca pearls have started to become translucent, about 30 minutes. Add sugar and continue to cook, stirring occasionally, until tapioca pearls are translucent and chewy, about 20 minutes. Strain mixture through a fine-mesh strainer set over a large heatproof bowl; return strained sugar-water mixture to saucepan. Rinse tapioca pearls under cold running water; set aside.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1303,15 +1303,52 @@
             <objects>
                 <viewController id="XRe-AE-GNS" customClass="HaloHaloStepsViewController" customModule="Recipe_Road" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1so-yn-A2o">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnO-1Z-OCc">
+                                <rect key="frame" x="0.0" y="44" width="390" height="1156"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dO-wF-bVs" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax9-7R-mRT">
+                                                <rect key="frame" x="35" y="51" width="12" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.61568627450000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="Ln8-1n-bnG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6dO-wF-bVs" firstAttribute="top" secondItem="tnO-1Z-OCc" secondAttribute="top" id="MES-V9-mUz"/>
+                                    <constraint firstAttribute="bottom" secondItem="6dO-wF-bVs" secondAttribute="bottom" id="TuH-ZJ-ekc"/>
+                                    <constraint firstAttribute="trailing" secondItem="6dO-wF-bVs" secondAttribute="trailing" id="UAN-XG-3KD"/>
+                                    <constraint firstItem="6dO-wF-bVs" firstAttribute="leading" secondItem="tnO-1Z-OCc" secondAttribute="leading" id="ru2-zq-z4Y"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="yOJ-Nu-EMM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6dO-wF-bVs" firstAttribute="width" secondItem="1so-yn-A2o" secondAttribute="width" id="BHd-yV-Kpl"/>
+                            <constraint firstAttribute="bottom" secondItem="tnO-1Z-OCc" secondAttribute="bottom" id="JMW-Ml-Iwc"/>
+                            <constraint firstItem="tnO-1Z-OCc" firstAttribute="trailing" secondItem="yOJ-Nu-EMM" secondAttribute="trailing" id="iPm-31-QiL"/>
+                            <constraint firstItem="tnO-1Z-OCc" firstAttribute="top" secondItem="yOJ-Nu-EMM" secondAttribute="top" id="qiZ-Iw-uwc"/>
+                            <constraint firstItem="tnO-1Z-OCc" firstAttribute="leading" secondItem="yOJ-Nu-EMM" secondAttribute="leading" id="tWa-Yp-NZY"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="390" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SfT-ds-DNG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6189" y="80"/>
+            <point key="canvasLocation" x="6187.6923076923076" y="79.620853080568722"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
