@@ -11,6 +11,8 @@ class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate
     
     @IBOutlet weak var ingredientPicker1: UIPickerView!
     @IBOutlet weak var ingredientPicker2: UIPickerView!
+    @IBOutlet weak var ingredientPicker3: UIPickerView!
+    @IBOutlet weak var addAThirdIngredient: UIButton!
     
     var ingredientPickerData: [String] = [String]()
     
@@ -23,11 +25,16 @@ class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate
         self.ingredientPicker1.dataSource = self
         self.ingredientPicker2.delegate = self
         self.ingredientPicker2.dataSource = self
+        self.ingredientPicker3.delegate = self
+        self.ingredientPicker3.dataSource = self
         
         // The data for the array
         ingredientPickerData = [
             "Ing1", "Ing2", "Ing3", "Ing4", "Ing 5", "Ing6"
         ]
+        
+        // Hiding the third ingredient picker
+        ingredientPicker3.isHidden = true
     }
     
     // Number of columns (vertical) of data
@@ -43,6 +50,16 @@ class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate
     // The data to return the row and component (column) that's being passed in
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return ingredientPickerData[row]
+    }
+    
+    // Function for if the button is pressed to add the third ingredient
+    @IBAction func pressingToAddIngredient(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isHidden = true
+            sender.isEnabled = false
+            
+            ingredientPicker3.isHidden = false
+        }
     }
     
     /*
