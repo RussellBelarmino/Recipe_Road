@@ -646,31 +646,9 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Nf-c7-cQF" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cz9-kg-6Aj">
-                                                <rect key="frame" x="20" y="8" width="350" height="150"/>
-                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="gBr-a5-afC"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWA-TL-W14">
-                                                <rect key="frame" x="20" y="970" width="350" height="150"/>
-                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="Jxe-xI-0Gc"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <color key="backgroundColor" red="1" green="0.61568627450000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="PWA-TL-W14" secondAttribute="trailing" constant="20" id="OkL-uI-1Ho"/>
-                                            <constraint firstAttribute="trailing" secondItem="Cz9-kg-6Aj" secondAttribute="trailing" constant="20" id="XEb-H0-E0a"/>
                                             <constraint firstAttribute="height" constant="1200" id="YlC-Qj-8mm"/>
-                                            <constraint firstItem="PWA-TL-W14" firstAttribute="leading" secondItem="3Nf-c7-cQF" secondAttribute="leading" constant="20" id="eHK-4w-eD8"/>
-                                            <constraint firstItem="Cz9-kg-6Aj" firstAttribute="top" secondItem="3Nf-c7-cQF" secondAttribute="top" constant="8" id="hvd-cw-ElT"/>
-                                            <constraint firstAttribute="bottom" secondItem="PWA-TL-W14" secondAttribute="bottom" constant="80" id="qgq-37-kU6"/>
-                                            <constraint firstItem="Cz9-kg-6Aj" firstAttribute="leading" secondItem="3Nf-c7-cQF" secondAttribute="leading" constant="20" id="sOm-8d-PeQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -708,12 +686,6 @@
         <image name="square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
