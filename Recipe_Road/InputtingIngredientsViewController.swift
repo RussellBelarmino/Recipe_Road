@@ -52,14 +52,16 @@ class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate
         return ingredientPickerData[row]
     }
     
-    // Function for if the button is pressed to add the third ingredient
     @IBAction func pressingToAddIngredient(_ sender: UIButton) {
-        if sender.isSelected {
-            sender.isHidden = true
-            sender.isEnabled = false
+        updateUI(basedOn: addAThirdIngredient)
+    }
+    
+    // Function to update UI if a button is pressed
+    func updateUI(basedOn: UIButton!) {
+        basedOn.isHidden = true
+        basedOn.isEnabled = false
             
-            ingredientPicker3.isHidden = false
-        }
+        ingredientPicker3.isHidden = false
     }
     
     /*
