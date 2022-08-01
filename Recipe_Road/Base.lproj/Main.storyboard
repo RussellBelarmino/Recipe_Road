@@ -1318,14 +1318,14 @@
             <objects>
                 <viewController id="XRe-AE-GNS" customClass="HaloHaloStepsViewController" customModule="Recipe_Road" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1so-yn-A2o">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="4000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnO-1Z-OCc">
-                                <rect key="frame" x="0.0" y="44" width="390" height="1156"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="3956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dO-wF-bVs" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="4000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax9-7R-mRT">
                                                 <rect key="frame" x="36" y="54" width="318" height="254"/>
@@ -1346,10 +1346,147 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nej-mF-aE8">
+                                                <rect key="frame" x="36" y="537" width="318" height="247"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMa-4y-B8r">
+                                                <rect key="frame" x="36" y="837" width="318" height="254"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">2. For the jackfruit in syrup: In now-clean saucepan, add water and sugar. Bring to a boil over high heat. Add jackfruit and lower heat to maintain a steady simmer. Cook until syrup has slightly reduced and thickened in consistency, about 8 minutes. Remove from heat and let cool to room temperature, about 30 minutes. Transfer to an airtight container (you should have about 1 cup; 285g) and refrigerate until cold, about 2 hours.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jackfruit-in-syrup" translatesAutoresizingMaskIntoConstraints="NO" id="WoK-BU-cID">
+                                                <rect key="frame" x="97" y="1117" width="195" height="149"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWh-6y-QXC">
+                                                <rect key="frame" x="36" y="1320" width="318" height="247"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="vCI-df-KTN">
+                                                <rect key="frame" x="-70" y="761" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="DQF-yW-pxX">
+                                                <rect key="frame" x="43" y="761" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="fZ3-pW-pW6">
+                                                <rect key="frame" x="150" y="761" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="dHK-iY-dVw">
+                                                <rect key="frame" x="257" y="761" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4s-R9-y3D">
+                                                <rect key="frame" x="36" y="1631" width="318" height="272"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">3. For the tapioca pearls in syrup: In a 4-quart saucepan, bring water to a boil over high heat. Add tapioca pearls and cook, stirring occasionally and scraping the bottom, until tapioca pearls have started to become translucent, about 30 minutes. Add sugar and continue to cook, stirring occasionally, until tapioca pearls are translucent and chewy, about 20 minutes. Strain mixture through a fine-mesh strainer set over a large heatproof bowl; return strained sugar-water mixture to saucepan. Rinse tapioca pearls under cold running water; set aside.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="RJK-31-ZSv">
+                                                <rect key="frame" x="-77" y="1550" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="uBh-VQ-e4I">
+                                                <rect key="frame" x="35" y="1550" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="a1K-NP-qbf">
+                                                <rect key="frame" x="142" y="1550" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="5AX-Rw-acG">
+                                                <rect key="frame" x="249" y="1550" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tapioca-pearls-in-syrup" translatesAutoresizingMaskIntoConstraints="NO" id="H9c-et-Kwe">
+                                                <rect key="frame" x="96" y="1940" width="195" height="149"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDm-oT-PIh">
+                                                <rect key="frame" x="36" y="2143" width="318" height="247"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41o-Y4-QJ7">
+                                                <rect key="frame" x="36" y="2465" width="318" height="219"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">4. Bring sugar-water mixture in saucepan to a boil over high heat. Lower heat to maintain a simmer and cook until reduced by roughly half, about 15 minutes. Stir in pandan extract. Remove from heat and let cool to room temperature, about 45 minutes. Combine tapioca pearls and syrup in an airtight container (you should have about 3 cups; 725g total) and refrigerate until cold, about 2 hours.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="Pv2-49-HGZ">
+                                                <rect key="frame" x="-77" y="2365" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="ivn-MP-wwo">
+                                                <rect key="frame" x="35" y="2365" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="0Dk-nb-FUs">
+                                                <rect key="frame" x="142" y="2365" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="a3U-Wx-r8p">
+                                                <rect key="frame" x="249" y="2365" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pandan-extract" translatesAutoresizingMaskIntoConstraints="NO" id="AiJ-86-Ot0">
+                                                <rect key="frame" x="96" y="2720" width="195" height="149"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzA-U8-WAn">
+                                                <rect key="frame" x="36" y="2923" width="318" height="247"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="NAx-8b-f1X">
+                                                <rect key="frame" x="-88" y="3141" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="EHh-ex-kO4">
+                                                <rect key="frame" x="24" y="3141" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="5TF-xs-miG">
+                                                <rect key="frame" x="131" y="3141" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="jWj-Tg-paQ">
+                                                <rect key="frame" x="238" y="3141" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gm4-no-nBT">
+                                                <rect key="frame" x="36" y="3231" width="318" height="219"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">5. To assemble halo-halo: In a blender or ice shaver, blend ice until small and fine in texture. In a tall, 12-ounce glass, add half of the ice, then add 2 tablespoons each of Saba bananas, jackfruit, and tapioca pearls, and other add-ins of your choice, except leche flan and ube ice cream, until glass is 3/4 full. Top with remaining ice, evaporated milk, leche flan, and ube ice cream. Serve immediately with a long handle spoon. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assembling-halo-halo" translatesAutoresizingMaskIntoConstraints="NO" id="sI0-Ea-D8Z">
+                                                <rect key="frame" x="96" y="3486" width="195" height="149"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dze-Eg-pTw">
+                                                <rect key="frame" x="36" y="3689" width="318" height="247"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.61568627450000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1200" id="Ln8-1n-bnG"/>
+                                            <constraint firstAttribute="height" constant="4000" id="Ln8-1n-bnG"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1371,7 +1508,7 @@
                             <constraint firstItem="tnO-1Z-OCc" firstAttribute="leading" secondItem="yOJ-Nu-EMM" secondAttribute="leading" id="tWa-Yp-NZY"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="390" height="1200"/>
+                    <size key="freeformSize" width="390" height="4000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SfT-ds-DNG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1383,18 +1520,22 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Recipe Road Logo FINAL" width="577" height="432"/>
+        <image name="assembling-halo-halo" width="700" height="525"/>
         <image name="avocado toast" width="1200" height="900"/>
         <image name="clock" catalog="system" width="128" height="121"/>
         <image name="fettuccine alfredo" width="1200" height="797"/>
         <image name="fork.knife" catalog="system" width="92" height="128"/>
         <image name="halo halo cover picture" width="580" height="580"/>
         <image name="horizontal line" width="1600" height="1600"/>
+        <image name="jackfruit-in-syrup" width="700" height="525"/>
+        <image name="pandan-extract" width="700" height="525"/>
         <image name="saba-bananas-in-syrup" width="700" height="525"/>
         <image name="square" catalog="system" width="128" height="114"/>
         <image name="square.fill" catalog="system" width="128" height="114"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="star.leadinghalf.filled" catalog="system" width="128" height="116"/>
+        <image name="tapioca-pearls-in-syrup" width="700" height="525"/>
         <image name="tempura" width="600" height="802"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
