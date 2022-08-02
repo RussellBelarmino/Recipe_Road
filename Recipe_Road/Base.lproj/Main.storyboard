@@ -1358,11 +1358,6 @@
                                                 <rect key="frame" x="97" y="1117" width="195" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWh-6y-QXC">
-                                                <rect key="frame" x="36" y="1320" width="318" height="247"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="vCI-df-KTN">
                                                 <rect key="frame" x="-70" y="761" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1407,11 +1402,6 @@
                                                 <rect key="frame" x="96" y="1940" width="195" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDm-oT-PIh">
-                                                <rect key="frame" x="36" y="2143" width="318" height="247"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41o-Y4-QJ7">
                                                 <rect key="frame" x="36" y="2465" width="318" height="219"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1440,11 +1430,6 @@
                                                 <rect key="frame" x="96" y="2720" width="195" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzA-U8-WAn">
-                                                <rect key="frame" x="36" y="2923" width="318" height="247"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="horizontal line" translatesAutoresizingMaskIntoConstraints="NO" id="NAx-8b-f1X">
                                                 <rect key="frame" x="-88" y="3141" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1473,13 +1458,8 @@
                                                 <rect key="frame" x="96" y="3486" width="195" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dze-Eg-pTw">
-                                                <rect key="frame" x="36" y="3689" width="318" height="247"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eD-M4-fvM">
-                                                <rect key="frame" x="23" y="551" width="344" height="83.666666666666629"/>
+                                                <rect key="frame" x="23" y="541" width="344" height="83.666666666666629"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1496,12 +1476,100 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Reset"/>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsF-aU-bIm">
+                                                <rect key="frame" x="21" y="1325" width="344" height="83.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERf-4f-tea">
+                                                <rect key="frame" x="20" y="1439" width="173.66666666666663" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Start"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OZ-Ci-ko3">
+                                                <rect key="frame" x="196" y="1439" width="173.33333333333337" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Reset"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ex4-0w-tPo">
+                                                <rect key="frame" x="21" y="2144" width="344" height="83.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtd-Y5-G1w">
+                                                <rect key="frame" x="20" y="2258" width="173.66666666666663" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Start"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfa-XA-1uS">
+                                                <rect key="frame" x="196" y="2258" width="173.33333333333337" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Reset"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bul-eV-6ZZ">
+                                                <rect key="frame" x="20" y="2911" width="344" height="83.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYJ-af-VcN">
+                                                <rect key="frame" x="19" y="3025" width="173.66666666666663" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Start"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G93-f5-FKJ">
+                                                <rect key="frame" x="195" y="3025" width="173.33333333333337" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Reset"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omw-EZ-lxm">
+                                                <rect key="frame" x="21" y="3716" width="344" height="83.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hM-0k-yIN">
+                                                <rect key="frame" x="20" y="3830" width="173.66666666666663" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Start"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky7-vS-k5U">
+                                                <rect key="frame" x="196" y="3830" width="173.33333333333337" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Reset"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.61568627450000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="zhQ-cK-Gu8" firstAttribute="leading" secondItem="9YO-G8-509" secondAttribute="trailing" id="4nH-Ce-9op"/>
+                                            <constraint firstItem="1OZ-Ci-ko3" firstAttribute="top" secondItem="LsF-aU-bIm" secondAttribute="bottom" constant="30" id="BRG-yB-VUh"/>
                                             <constraint firstItem="zhQ-cK-Gu8" firstAttribute="width" secondItem="9YO-G8-509" secondAttribute="width" id="CGc-fO-nLe"/>
+                                            <constraint firstItem="G93-f5-FKJ" firstAttribute="width" secondItem="uYJ-af-VcN" secondAttribute="width" id="Cbi-GW-W4a"/>
+                                            <constraint firstItem="Ky7-vS-k5U" firstAttribute="leading" secondItem="0hM-0k-yIN" secondAttribute="trailing" id="HAY-y3-6mF"/>
+                                            <constraint firstItem="G93-f5-FKJ" firstAttribute="top" secondItem="Bul-eV-6ZZ" secondAttribute="bottom" constant="30" id="Jdj-FE-T6D"/>
+                                            <constraint firstItem="0hM-0k-yIN" firstAttribute="centerY" secondItem="Ky7-vS-k5U" secondAttribute="centerY" id="KDn-xu-niR"/>
+                                            <constraint firstItem="ERf-4f-tea" firstAttribute="centerY" secondItem="1OZ-Ci-ko3" secondAttribute="centerY" id="Kkb-8T-2k3"/>
                                             <constraint firstAttribute="height" constant="4000" id="Ln8-1n-bnG"/>
+                                            <constraint firstItem="gfa-XA-1uS" firstAttribute="top" secondItem="Ex4-0w-tPo" secondAttribute="bottom" constant="30" id="Nty-kd-5dT"/>
+                                            <constraint firstItem="Ky7-vS-k5U" firstAttribute="width" secondItem="0hM-0k-yIN" secondAttribute="width" id="P2E-o3-cqi"/>
+                                            <constraint firstItem="qtd-Y5-G1w" firstAttribute="centerY" secondItem="gfa-XA-1uS" secondAttribute="centerY" id="PrN-Xx-J93"/>
+                                            <constraint firstItem="G93-f5-FKJ" firstAttribute="leading" secondItem="uYJ-af-VcN" secondAttribute="trailing" id="WBy-Wy-KQr"/>
+                                            <constraint firstItem="uYJ-af-VcN" firstAttribute="centerY" secondItem="G93-f5-FKJ" secondAttribute="centerY" id="YzW-ev-DWZ"/>
+                                            <constraint firstItem="1OZ-Ci-ko3" firstAttribute="leading" secondItem="ERf-4f-tea" secondAttribute="trailing" id="a1W-xC-JhS"/>
+                                            <constraint firstItem="Ky7-vS-k5U" firstAttribute="top" secondItem="omw-EZ-lxm" secondAttribute="bottom" constant="30" id="ark-B3-f9t"/>
+                                            <constraint firstItem="gfa-XA-1uS" firstAttribute="leading" secondItem="qtd-Y5-G1w" secondAttribute="trailing" id="asu-Yq-559"/>
+                                            <constraint firstItem="gfa-XA-1uS" firstAttribute="width" secondItem="qtd-Y5-G1w" secondAttribute="width" id="b2q-nI-HrZ"/>
+                                            <constraint firstItem="1OZ-Ci-ko3" firstAttribute="width" secondItem="ERf-4f-tea" secondAttribute="width" id="bwh-ce-Vdd"/>
                                             <constraint firstItem="zhQ-cK-Gu8" firstAttribute="top" secondItem="7eD-M4-fvM" secondAttribute="bottom" constant="30" id="e1V-5S-CeX"/>
                                             <constraint firstItem="9YO-G8-509" firstAttribute="centerY" secondItem="zhQ-cK-Gu8" secondAttribute="centerY" id="hGB-eG-QSX"/>
                                         </constraints>
