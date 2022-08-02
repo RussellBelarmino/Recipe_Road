@@ -1458,14 +1458,16 @@
                                                 <rect key="frame" x="96" y="3486" width="195" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eD-M4-fvM">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00 : 00 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eD-M4-fvM">
                                                 <rect key="frame" x="23" y="541" width="344" height="83.666666666666629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhQ-cK-Gu8">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhQ-cK-Gu8">
                                                 <rect key="frame" x="196" y="641" width="175" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="RESET"/>
@@ -1557,8 +1559,9 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="RESET"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YO-G8-509">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YO-G8-509">
                                                 <rect key="frame" x="28" y="641" width="160" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="START"/>
@@ -1584,12 +1587,8 @@
                         <viewLayoutGuide key="safeArea" id="yOJ-Nu-EMM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7eD-M4-fvM" firstAttribute="top" secondItem="yOJ-Nu-EMM" secondAttribute="top" constant="541" id="64c-gt-jjw"/>
-                            <constraint firstItem="yOJ-Nu-EMM" firstAttribute="trailing" secondItem="zhQ-cK-Gu8" secondAttribute="trailing" id="8ZZ-OQ-nho"/>
                             <constraint firstItem="6dO-wF-bVs" firstAttribute="width" secondItem="1so-yn-A2o" secondAttribute="width" id="BHd-yV-Kpl"/>
                             <constraint firstAttribute="bottom" secondItem="tnO-1Z-OCc" secondAttribute="bottom" id="JMW-Ml-Iwc"/>
-                            <constraint firstItem="7eD-M4-fvM" firstAttribute="centerX" secondItem="yOJ-Nu-EMM" secondAttribute="centerX" id="M66-Ca-G7G"/>
-                            <constraint firstItem="9YO-G8-509" firstAttribute="leading" secondItem="yOJ-Nu-EMM" secondAttribute="leading" constant="43" id="MeE-u1-g96"/>
                             <constraint firstItem="tnO-1Z-OCc" firstAttribute="trailing" secondItem="yOJ-Nu-EMM" secondAttribute="trailing" id="iPm-31-QiL"/>
                             <constraint firstItem="tnO-1Z-OCc" firstAttribute="top" secondItem="yOJ-Nu-EMM" secondAttribute="top" id="qiZ-Iw-uwc"/>
                             <constraint firstItem="tnO-1Z-OCc" firstAttribute="leading" secondItem="yOJ-Nu-EMM" secondAttribute="leading" id="tWa-Yp-NZY"/>
