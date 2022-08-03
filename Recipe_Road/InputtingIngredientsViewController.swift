@@ -30,7 +30,7 @@ class InputtingIngredientsViewController: UIViewController, UIPickerViewDelegate
         
         // The data for the array
         ingredientPickerData = [
-            "Ing1", "Ing2", "Ing3", "Ing4", "Ing 5", "Ing6"
+            "Apple", "Avocado", "Bread", "Butter", "Cucumber", "Egg", "Kiwi", "Longan", "Lotus Root", "Lychee", "Pineapple", "Pitaya", "Salmon", "Shrimp", "Yogurt"
         ]
         
         // Hiding the third ingredient picker
